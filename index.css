@@ -1,0 +1,66 @@
+
+
+.main{
+    background-color: #242459;
+    width: auto;
+    height: auto;
+    color: #fff;
+    text-shadow: 0 8px 4px #000;
+    box-shadow: 0 0 8px 4px #333;
+    margin: 2rem;
+    text-align: center;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    margin: .5rem .5rem .5rem .5rem;
+    padding: .5rem .5rem .5rem .5rem .5rem;
+    transition: .6s ease-in-out;
+}
+
+.card:hover{
+    box-shadow: 0 0 8px 4px #333;
+    scale: .7;
+}
+
+
+/*for the footer*/
+.footer{
+    background-color: #025464;
+    box-shadow: 4px 4px 4px  #000;
+    padding: 2rem;
+  }
+  
+  .ul_list1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+  .foot_1{
+    color: #fff;
+    
+  }
+  .foot_link{
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: cursive;
+  transition: .6s;
+  }
+  
+  
+  .foot_link:hover{
+    color: #fff;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  }
